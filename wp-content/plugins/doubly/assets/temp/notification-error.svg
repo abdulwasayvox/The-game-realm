@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="23px" height="23px" viewBox="0 0 23 23" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 64 (93537) - https://sketch.com -->
+    <title>Group 9</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Notifications" transform="translate(-784.000000, -742.000000)">
+            <g id="Group-9" transform="translate(784.000000, 742.000000)">
+                <path d="M11.5,0.5 C17.575,0.5 22.5,5.425 22.5,11.5 C22.5,17.575 17.575,22.5 11.5,22.5 C5.425,22.5 0.5,17.575 0.5,11.5 C0.5,5.425 5.425,0.5 11.5,0.5 Z" id="Stroke-1" stroke="#FFFFFF" stroke-linecap="square"></path>
+                <line x1="11.5" y1="6.5" x2="11.5" y2="12.5" id="Stroke-3" stroke="#FFFFFF" stroke-linecap="square"></line>
+                <path d="M11.5,15.5 C12.053,15.5 12.5,15.947 12.5,16.5 C12.5,17.053 12.053,17.5 11.5,17.5 C10.948,17.5 10.5,17.053 10.5,16.5 C10.5,15.947 10.948,15.5 11.5,15.5" id="Fill-5" fill="#FFFFFF"></path>
+                <path d="M11.5,15.5 C12.053,15.5 12.5,15.947 12.5,16.5 C12.5,17.053 12.053,17.5 11.5,17.5 C10.948,17.5 10.5,17.053 10.5,16.5 C10.5,15.947 10.948,15.5 11.5,15.5 Z" id="Stroke-7" stroke="#FFFFFF"></path>
+            </g>
+        </g>
+    </g>
+</svg>

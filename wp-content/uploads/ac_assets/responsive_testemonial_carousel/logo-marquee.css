@@ -1,0 +1,87 @@
+.uc_marquee {
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  position: relative;
+}
+
+.uc_marquee > div {
+  position:relative;
+  display: inline-flex;
+  align-items: center;
+  flex: 0 0 auto;
+  width: auto;
+  overflow: hidden;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+.uc_marquee_left .uc_marquee > div{
+  animation-name: marquee-to-left;
+}
+
+.uc_marquee_right .uc_marquee > div{
+  animation-name: marquee-to-right;
+}
+
+.uc_marquee_up .uc_marquee > div{
+  animation-name: marquee-to-up;
+}
+
+.uc_marquee_down .uc_marquee > div{
+  animation-name: marquee-to-down;
+}
+
+.uc_marquee_up .uc_marquee > div,
+.uc_marquee_down .uc_marquee > div{
+  flex-direction: column;
+  width: 100%;
+}
+
+.ue_marquee_title  {
+  position:absolute;
+  bottom:0px;
+  width:100%;
+}
+
+.uc_logo_marquee_holder{
+  position:relative;
+  text-align:center;
+  overflow:hidden;
+}
+
+.uc_marquee_up .uc_logo_marquee_holder,
+.uc_marquee_down .uc_logo_marquee_holder{
+  width: 100%;
+}
+
+.uc_logo_marquee_holder a{
+  height:100%;
+  width: 100%;
+  display:flex;
+  align-items: center;
+  justify-content:center;
+}
+
+.ue-item-equalize-height{
+	align-self: stretch;
+}
+
+@keyframes marquee-to-left {
+  from {transform: translate(0,0)}
+  to {transform: translate(-50%,0)}
+}
+
+@keyframes marquee-to-right {
+  from {transform: translate(-50%,0)}
+  to {transform: translate(0,0)}
+}
+@keyframes marquee-to-up {
+  from {transform: translate(0, 25%)}
+  to {transform: translate(0, -25%)}
+}
+
+@keyframes marquee-to-down {
+  from {transform: translate(0, -25%)}
+  to {transform: translate(0, 25%)}
+}

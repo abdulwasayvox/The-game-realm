@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="12px" viewBox="0 0 16 12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 64 (93537) - https://sketch.com -->
+    <title>Path</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Copy-Buttons" transform="translate(-191.000000, -293.000000)" fill="#FFFFFF" fill-rule="nonzero">
+            <g id="g-check" transform="translate(191.000000, 293.000000)">
+                <path d="M0,5.82857143 L1.6,4.11428571 L4.8,6.58285714 C7.59092501,3.42018746 11.1973853,1.13741696 15.2,0 L16,1.64571429 C16,1.64571429 8.34666667,4.92342857 4.66666667,12 L0,5.82857143 Z" id="Path"></path>
+            </g>
+        </g>
+    </g>
+</svg>

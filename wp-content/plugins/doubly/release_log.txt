@@ -1,0 +1,199 @@
+
+
+Version 1.0.44 
+
+* updated tested version in readme
+* updated freemius sdk
+
+
+Version 1.0.42 
+
+* Update: updated freemius to the latest version
+* Fix: fixed some small bugs
+
+
+Version 1.0.41
+
+-bug fix: fixed exporting data from kadence blocks in gutenberg
+-feature: done some integration with wpbakery page builder images export
+
+
+Version 1.0.40
+
+-bug fix: fixed some optimization related issues with front button
+
+Version 1.0.39
+
+-feature: added integration with exporting / importing woo orders in pro version
+
+
+Version 1.0.38
+
+-feature: added choose action on existing post on import (overwrite, skip etc)
+
+
+Version 1.0.37
+
+-bug fix: fixed some spectra and gutenberg realted import integration with images
+-feature: added post date to export / import
+-change: post status copied from original post from now, was always publish
+
+
+Version 1.0.36
+
+-bug fix: fixed some export bug
+
+Version 1.0.35
+
+* feature: added comments to export/import post
+
+
+Version 1.0.34
+
+* feature: made integration with divi layouts - copy with images
+
+
+Version 1.0.33
+
+* Feature: added option to export images by image url in meta arrays
+* Change: changed the paste operation timeout to 120 seconds (from 20)
+* Feature: added option to export wp images from classic editor post content
+
+
+Version 1.0.32
+
+-bug fix: fixed brocken elementor page in some cases after move
+
+
+Version 1.0.31
+
+-feature: show admin bulk actions even if hidden if doubly present
+-change:  upgraded freemius sdk verison
+-bug fix:  fixed images export of nested meta gallery like fields
+-bug fix:  fixed copy paste single snippet
+-change: made the code snippets support free feature
+
+
+Version 1.0.30
+
+-bug fix: fixed unreachable elementor section copy in some cases
+-feature: added ask for copy functionality
+-feature: made integration with code snippets
+-bug fix: has set more timeout for request get (20 sec).
+-feature:  added rankmath integration
+
+
+Version 1.0.29
+
+-bug fix: improved elementor images export/import
+-bug fix: show the complete error instead of "request failed" in case of 403 error - forbidden
+-bug fix: fixed media upload
+
+
+Version 1.0.28
+
+-bug fix: fixed menu slug issue with freemius in pro version
+-feature: added welcome screen
+
+
+Version 1.0.27
+
+-bug fix: fixed acf import with the fields
+-bug fix: fixed zip file validation errors in some cases
+
+
+Version 1.0.26
+
+-change: changed exported zip file names
+
+
+Version 1.0.25
+
+-bug fix: fixed copy button not available in editor - single post edit
+-bug fix: fixed image copy in some custom acf fields
+-bug fix: fixed copied to clipboard text showed always "post" type
+-bug fix: fixed front not permitted message on copy elementor section
+
+
+Version 1.0.24
+
+-feature: added front end copy/paste button in case that the site on wordpress.com or the admin bar is absent
+
+Version 1.0.23
+
+-bug fix: fixed some php get_current_user bug
+
+
+Version 1.0.22
+
+-bug fix: added message when both versions installed - free and pro
+
+
+Version 1.0.21
+
+-bug fix: fixed bulk actions in media
+-change: corrected imported post names message
+-bug fix: fixed multiple file names zip
+
+
+
+Version 1.0.20
+
+-feature: added front copy button (to pro version)
+
+
+Version 1.0.19
+
+-bug fix: allow to copy sections from footer
+-bug fix: fixed gutenberg corrupted layout in some cases
+
+
+Version 1.0.18 - 
+
+-bug fix: fixed copy section button not pressed
+
+
+Version 1.0.17 
+
+-bug fix: done some more wordpress.org remarks - curl request
+
+
+Version 1.0.16 
+
+-bug fix: done some more wordpress.org remarks
+
+Version 1.0.15 
+
+-bug fix: fixed wordpress.org remarks
+
+Version 1.0.14 - 20/05/2022
+
+-feature: doubly now works with elementor containers
+
+Version 1.0.13 - 10/05/2022
+
+-bug fix: fixed some rtl related bugs
+
+
+Version 1.0.12 - 7/2/2022
+
+-bug fix: fixed insert term with slug: "0"
+
+Version 1.0.11 - 31/1/2022
+
+-bug fix: fixed move products with variations
+
+Version 1.0.10 - 26/1/2022
+
+-fixed some woo attribute unicode related bug
+
+
+Version 1.0.9 - 25/1/2022
+
+-bug fix: fixed woocommerce gallery images import
+-bug fix: added woocommerce attributes import/export
+
+Version 1.0 - 19/1/2022
+
+- Firt Release!!!
+

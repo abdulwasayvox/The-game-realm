@@ -1,0 +1,68 @@
+.elementor-element .icon {
+  position: relative;
+}
+.elementor-element .icon .htslider-icon::after {
+  content: "HT";
+  font-size: 10px;
+  opacity: 0.4;
+  position: absolute;
+  right: 5px;
+  top: 5px;
+}
+.elementor-control-redirect_page_url .elementor-control-url-more{
+  display: none;
+}
+.ht-badge-icon{
+  float: right;
+}
+.htslider-pro-notice {
+  background: #efefef;
+  padding: 14px;
+  line-height: 1.5;
+  border-left: 5px solid skyblue;
+}
+
+.htslider-disable-control .elementor-control-input-wrapper{
+  pointer-events: none !important;
+  opacity: 0.4;
+}
+.htslider-disable-control:before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top:0;
+  z-index: 2;
+  opacity: 1;
+  height: 100%;
+  width: 100%;
+  background-color: transparent;
+}
+.htslider-addons-notice {
+  font-size: 12px;
+  line-height: 16px;
+  background: #b3e7db78;
+  padding: 10px;
+  border-radius: 4px;
+  text-align: center;
+  border-left: 5px solid #03A9F4;
+  color: #202020;
+}
+.htslider-addons-notice a {
+  color: #fff;
+  background: #D73361;
+  padding: 4px 10px;
+  display: inline-block;
+  margin: 6px;
+  border-radius: 3px;
+  font-size: 10px;
+}
+.htslider-addons-notice a:hover {
+  color: #fff;
+}
+.htslider-disable-control i.eicon-pro-icon {
+  color: #D73361;
+  font-size: 14px;
+}
+.elementor-templates-modal .dialog-widget-content {
+  max-width: 1920px;
+}

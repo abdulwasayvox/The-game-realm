@@ -1,0 +1,7 @@
+{
+	"name": "greenshift-blocks/row-column",
+	"title" : "Column",
+	"category":"GreenShift",
+	"editorStyle": "greenShift-stylebook-css",
+	"apiVersion": 3
+}

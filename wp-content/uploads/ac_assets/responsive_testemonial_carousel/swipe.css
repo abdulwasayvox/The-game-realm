@@ -1,0 +1,39 @@
+.swipe_css_carousel,
+.swipe_css_carousel .uc-items-wrapper{
+    padding: 0px;
+    display: flex;
+    overflow: scroll;
+  	width: 100%;
+}
+
+.swipe_css_carousel .galleryItem {
+    background-position:center;
+    flex-shrink: 0;
+    position:relative;
+    background-repeat:no-repeat;
+  	display: flex;
+}
+
+.swipe_css_carousel::-webkit-scrollbar,
+.swipe_css_carousel .uc-items-wrapper::-webkit-scrollbar {
+  width: 0px !important;
+  height: 0px !important;
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.swipe_css_carousel::-webkit-scrollbar-thumb,
+.swipe_css_carousel .uc-items-wrapper::-webkit-scrollbar-thumb {
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.swipe_css_carousel::-webkit-scrollbar-track,
+.swipe_css_carousel .uc-items-wrapper::-webkit-scrollbar-track {
+  background-color: rgba(255, 255, 255, 0.0);
+}
+
+.swipe_css_carousel-snap .uc-items-wrapper:not(.active){
+   scroll-snap-type: both mandatory;
+}
+.swipe_css_carousel-snap .galleryItem{
+   scroll-snap-align: start;
+}

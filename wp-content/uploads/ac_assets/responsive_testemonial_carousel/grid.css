@@ -1,0 +1,10 @@
+.team_member_grid{
+  position:relative;
+  display:grid;
+}
+
+.team_member_grid .ue_grid_item{
+  position:relative;
+  display:flex;
+  flex-direction:column;
+}
